@@ -1,3 +1,3 @@
 # python-course
 
-## Lesson 1
+## Lesson 2
