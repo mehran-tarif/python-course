@@ -1,22 +1,20 @@
-# name = "Mehran"
-# name = 'Mehran'
-# name = """Mehran"""
-# name = '''Mehran'''
-# name = """
-# Mehran
-# """
+name = "mehran"
+age = 19
 
-# Mehran's book
-# name = "Mehran's book"
+# output = name + str(age)
+# print(output)
 
-# Mehran says "hello"
-# name = 'Mehran says "hello"'
+# print("25" + "25")
+# print(25 + 25)
 
-# Mehran's book says "hello"
-# name = "Mehran\'s book says \"hello\""
-# name = 'Mehran\'s book says \"hello\"'
-# name = """Mehran\'s book says:
-# 	\"hello\""""
-# name = '\nMehran\'s book says:\n\t\"hello\"\n'
-name = "backslash is: \\"
-print(name)
+# format type 1
+# output = "{} {}".format(name, age)
+# print(output)
+
+# format type 2
+# output = "%s %s" % (name, age)
+# print(output)
+
+# format type 3
+output = f"Hello {name}, are you {age} year old?"
+print(output)
